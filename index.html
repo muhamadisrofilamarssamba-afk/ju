@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kantiin - Prapesan Kantin Sekolah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🏪 Kantiin Sekolah</h1>
+        <p>Pesan makanan dari kelas, ambil tanpa antre!</p>
+    </header>
+
+    <main class="container">
+        <!-- Bagian Menu Makanan -->
+        <section class="menu-section">
+            <h2>Menu Hari Ini</h2>
+            <div class="menu-grid" id="menu-container">
+                <!-- Item menu akan dimasukkan secara dinamis menggunakan JavaScript -->
+            </div>
+        </section>
+
+        <!-- Bagian Keranjang Belanja -->
+        <section class="cart-section">
+            <h2>Keranjang Kamu</h2>
+            <ul id="cart-items">
+                <!-- Item yang dipilih muncul di sini -->
+                <p class="empty-msg">Keranjang masih kosong.</p>
+            </ul>
+            <div class="cart-total">
+                <h3>Total: <span id="total-harga">Rp 0</span></h3>
+                <button id="checkout-btn" disabled>Pesan Sekarang via WhatsApp</button>
+            </div>
+        </section>
+    </main>
+
+    <script href="script.js"></script>
+</body>
+</html>
